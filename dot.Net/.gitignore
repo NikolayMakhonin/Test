@@ -1,0 +1,8 @@
+#http://git-scm.com/docs/gitignore
+
+packages
+obj
+bin
+*.pdb
+*.suo
+*.user

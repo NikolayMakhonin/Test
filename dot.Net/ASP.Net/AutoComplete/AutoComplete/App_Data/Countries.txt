@@ -1,0 +1,9 @@
+﻿UK	London
+Russia	Moscow
+Fiji	Lautoka
+France	Paris
+Lao	Vientiane
+Australia	Canberra
+Thailand	Bangkok
+Japan	Tokio
+South Korea	Seul	

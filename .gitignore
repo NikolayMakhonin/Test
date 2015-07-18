@@ -1,0 +1,8 @@
+*.ts_
+jquery*.js
+jquery*.map
+bootstrap*.js
+bootstrap*.map
+TypeScriptUtils.js
+TypeScriptUtils.js.map
+ClearScript.V8
