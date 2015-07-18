@@ -1,7 +1,24 @@
-﻿
+﻿@using System.Web.Optimization
+
 @{
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+@section Scripts {
+    @Scripts.Render("~/bundles/app")
+}
 
+<h2>Index</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <table class="table">
+                <tbody>
+                    <tr><td>Country:</td><td><input type="text" data-autocomplete="country" size="100" autocomplete="off"/></td></tr>
+                    <tr><td>Capital:</td><td><input type="text" data-autocomplete="capital" size="100" autocomplete="off"/></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

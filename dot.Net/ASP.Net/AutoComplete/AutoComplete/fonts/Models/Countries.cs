@@ -11,6 +11,9 @@ namespace AutoComplete.Models
 {
     public class Country : IComparable
     {
+        //private static int _nextId = 1;
+        //private readonly int _id = _nextId++;
+        //public int Id { get { return _id; } }
         public string Name { get; set; }
         public string Capital { get; set; }
 
