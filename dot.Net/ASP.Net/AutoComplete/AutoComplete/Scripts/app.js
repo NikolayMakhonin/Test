@@ -12,10 +12,11 @@
                 method: "get",
                 preDispatch: function(query) {
                     return {
-                        firstLetters: query
+                        query: query
                     }
                 }
-            }
+            },
+            items: 20
         });
     });
 
